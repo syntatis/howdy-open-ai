@@ -3,7 +3,7 @@
 > [!CAUTION]  
 > This project is still under active development. It's not quite ready for production use *yet*.
 
-A WordPress plugin starter kit with **[OpenAI Client](https://github.com/openai-php)**. 
+A WordPress plugin starter kit with **[OpenAI PHP Client](https://github.com/openai-php)**. 
 
 Based of 👋 **[Howdy](https://github.com/syntatis/howdy)**, which provides a boilerplate structure with pre-configured tools to help you start developing plugins using modern PHP practices like [PSR-4 Autoloading](https://www.php-fig.org/psr/psr-4/) with [Composer](https://getcomposer.org), [PHP Code Sniffer (PHPCS)](https://github.com/PHPCSStandards/PHP_CodeSniffer), namespaces, and Dependency Injection (DI) Containers—without the hassle of setting everything up from scratch.
 
