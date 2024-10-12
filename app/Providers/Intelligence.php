@@ -10,7 +10,7 @@ use PluginName\Vendor\OpenAI;
 use PluginName\Vendor\OpenAI\Client;
 use PluginName\Vendor\Pimple\Container;
 
-class Assistant extends ServiceProvider
+class Intelligence extends ServiceProvider
 {
 	public function register(): void
 	{

@@ -1,6 +1,6 @@
 <?php
 
 return [
-	\PluginName\Providers\Assistant::class,
+	\PluginName\Providers\Intelligence::class,
 	\PluginName\Vendor\Codex\Settings\Provider::class,
 ];
