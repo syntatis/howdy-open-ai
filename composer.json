@@ -1,6 +1,6 @@
 {
-    "name": "syntatis/howdy",
-    "description": "Your next modern WordPress plugin project",
+    "name": "syntatis/howdy-open-ai",
+    "description": "Your next WordPress plugin project with OpenAI",
     "type": "wordpress-plugin",
     "keywords": [
         "wordpress",
