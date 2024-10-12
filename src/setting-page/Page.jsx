@@ -1,3 +1,10 @@
+/**
+ * This file serves as an example, on how to create a setting page in the
+ * WordPress admin area using a React component and Kubrick components
+ * for the UI. Feel free to modify or remove it, if it does not fit
+ * your needs.
+ */
+
 import { Button, Notice, Spinner, TextField } from '@syntatis/kubrick';
 import { __ } from '@wordpress/i18n';
 import { useSettings } from './useSettings';
@@ -47,30 +54,30 @@ export const Page = () => {
 							<tr>
 								<th scope="row">
 									<label
-										htmlFor="plugin-name-settings-greeting"
-										id="plugin-name-settings-greeting-label"
+										htmlFor="plugin-name-settings-api-key"
+										id="plugin-name-settings-api-key-label"
 									>
-										{ __( 'Greeting', 'plugin-name' ) }
+										{ __( 'API Key', 'plugin-name' ) }
 									</label>
 								</th>
 								<td>
 									<TextField
 										isInvalid={
-											errorMessages?.plugin_name_greeting ??
+											errorMessages?.plugin_name_api_key ??
 											false
 										}
 										errorMessage={
-											errorMessages?.plugin_name_greeting
+											errorMessages?.plugin_name_api_key
 										}
-										aria-labelledby="plugin-name-settings-greeting-label"
-										id="plugin-name-settings-greeting"
+										aria-labelledby="plugin-name-settings-api-key-label"
+										id="plugin-name-settings-api-key"
 										className="regular-text"
 										defaultValue={ getOption(
-											'plugin_name_greeting'
+											'plugin_name_api_key'
 										) }
-										name="plugin_name_greeting"
+										name="plugin_name_api_key"
 										description={ __(
-											'Enter a greeting to display.',
+											'Enter your OpenAI API key.',
 											'plugin-name'
 										) }
 									/>

@@ -48,8 +48,8 @@ class SettingPage implements Hookable
 	{
 		add_submenu_page(
 			'options-general.php', // Parent slug.
-			__('Howdy Settings', 'plugin-name'),
-			__('Howdy', 'plugin-name'),
+			__('OpenAI Settings', 'plugin-name'),
+			__('OpenAI', 'plugin-name'),
 			'manage_options',
 			App::name(),
 			[$this, 'render'],

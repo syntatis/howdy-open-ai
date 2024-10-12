@@ -6,6 +6,7 @@ namespace PluginName;
 
 use PluginName\Vendor\Codex\Contracts\Extendable;
 use PluginName\Vendor\Codex\Settings\Settings;
+use PluginName\Vendor\OpenAI\Client;
 use PluginName\Vendor\Psr\Container\ContainerInterface;
 
 /**
@@ -35,5 +36,6 @@ class Plugin implements Extendable
 	public function getInstances(ContainerInterface $container): iterable
 	{
 		yield new SettingPage($container->get(Settings::class));
+		yield new Assistant($container->get(Client::class));
 	}
 }
