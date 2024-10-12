@@ -10,6 +10,5 @@ use PluginName\Vendor\Codex\Settings\Setting;
  * modify it to suit your needs.
  */
 return [
-	(new Setting('api_key'))
-		->withDefault('Hello World!'),
+	new Setting('api_key'),
 ];
