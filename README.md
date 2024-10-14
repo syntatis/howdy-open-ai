@@ -1,7 +1,7 @@
 # ✨ Howdy, OpenAI
 
-> [!CAUTION]  
-> This project is still under active development. It's not quite ready for production use *yet*.
+> [!NOTE]
+> The project is now in beta and ready for testing. We'd love to hear your input, so feel free to report any issues or suggest enhancements.
 
 A WordPress plugin starter kit with **[OpenAI PHP Client](https://github.com/openai-php)**. 
 
