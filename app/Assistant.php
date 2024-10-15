@@ -19,7 +19,7 @@ class Assistant implements Hookable
 
 	public function hook(Hook $hook): void
 	{
-		$hook->addAction('init', [$this, 'addMenu']);
+		$hook->addAction('init', [$this, 'init']);
 	}
 
 	public function init(): void
