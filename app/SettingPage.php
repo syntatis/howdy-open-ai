@@ -13,6 +13,7 @@ use WP_REST_Request;
 use function array_filter;
 use function array_keys;
 use function in_array;
+use function is_readable;
 use function sprintf;
 
 use const ARRAY_FILTER_USE_KEY;
