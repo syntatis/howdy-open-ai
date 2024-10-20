@@ -23,6 +23,11 @@
             "PluginName\\": "app/"
         }
     },
+    "autoload-dev": {
+        "files": [
+            "inc/bootstrap/dev.php"
+        ]
+    },
     "require": {
         "php": "^8.1",
         "openai-php/client": "^0.10.1",
@@ -70,7 +75,6 @@
     "archive": {
         "exclude": [
             "*.config.*",
-            "*.dev.php",
             "*.inc.php",
             "*.lock",
             "*.map",
@@ -79,6 +83,7 @@
             ".*",
             "LICENSE",
             "composer.json",
+            "dev.php",
             "node_modules",
             "package-lock.json",
             "package.json",
