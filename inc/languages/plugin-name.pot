@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-15T15:39:30+00:00\n"
+"POT-Creation-Date: 2024-10-20T15:15:11+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: plugin-name\n"
@@ -35,15 +35,15 @@ msgstr ""
 msgid "Author Name"
 msgstr ""
 
-#: app/SettingPage.php:51
+#: app/SettingPage.php:52
 msgid "OpenAI Settings"
 msgstr ""
 
-#: app/SettingPage.php:52
+#: app/SettingPage.php:53
 msgid "OpenAI"
 msgstr ""
 
-#: app/SettingPage.php:77
+#: app/SettingPage.php:78
 msgid "This setting page requires JavaScript to be enabled in your browser. Please enable JavaScript and reload the page."
 msgstr ""
 
