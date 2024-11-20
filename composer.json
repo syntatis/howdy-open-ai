@@ -75,11 +75,14 @@
     "archive": {
         "exclude": [
             "*.config.*",
+            "*.dist",
+            "*.neon",
             "*.inc.php",
             "*.lock",
             "*.map",
             "*.md",
             "*.xml*",
+            "*.zip",
             ".*",
             "LICENSE",
             "composer.json",
