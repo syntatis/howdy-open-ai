@@ -1,5 +1,5 @@
 {
-    "name": "@syntatis/howdy",
+    "name": "@syntatis/howdy-open-ai",
     "version": "0.1.0",
     "description": "Build your next modern plugin for WordPress® with OpenAI integration",
     "author": {
