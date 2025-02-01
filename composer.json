@@ -65,6 +65,7 @@
     },
     "scripts-descriptions": {
         "build": "Build the plugin for production",
+        "make-pot": "Generate the POT file for translations",
         "phpcs": "Check the codebase for coding standards violations",
         "phpcs:fix": "Fix coding standards violations",
         "plugin:zip": "Create a zip file of the plugin for distribution",
