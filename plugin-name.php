@@ -12,12 +12,12 @@ declare(strict_types=1);
  * Plugin URI:        https://example.org
  * Description:       The plugin short description.
  * Version:           0.1.0
- * Requires at least: 5.8
+ * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            Author Name
  * Author URI:        https://example.org
- * License:           GPL-2.0+
- * License URI:       https://www.gnu.org/licenses/gpl-2.0.txt
+ * License:           GPL-3.0
+ * License URI:       https://www.gnu.org/licenses/gpl-3.0.txt
  * Text Domain:       plugin-name
  * Domain Path:       /inc/languages
  */
