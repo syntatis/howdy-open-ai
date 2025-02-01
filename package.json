@@ -1,7 +1,7 @@
 {
     "name": "@syntatis/howdy",
     "version": "0.1.0",
-    "description": "Your next WordPress plugin project with OpenAI",
+    "description": "Build your next modern plugin for WordPress® with OpenAI integration",
     "author": {
         "name": "Thoriq Firdaus",
         "url": "https://github.com/tfirdaus"

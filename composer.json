@@ -1,6 +1,6 @@
 {
     "name": "syntatis/howdy-open-ai",
-    "description": "Your next WordPress plugin project with OpenAI",
+    "description": "Build your next modern plugin for WordPress® with OpenAI integration",
     "type": "wordpress-plugin",
     "keywords": [
         "wordpress",
