@@ -14,8 +14,8 @@
         "boilerplate"
     ],
     "engines": {
-        "node": ">=18",
-        "npm": ">=9"
+        "node": ">=20",
+        "npm": ">=10"
     },
     "files": [
         "app",
@@ -26,7 +26,7 @@
         "!*.map"
     ],
     "dependencies": {
-        "@syntatis/kubrick": "^0.1.0-beta.3",
+        "@syntatis/kubrick": "^0.1.0-beta.14",
         "@wordpress/api-fetch": "^7.9.0",
         "@wordpress/dom-ready": "^4.9.0",
         "@wordpress/element": "^6.9.0",
