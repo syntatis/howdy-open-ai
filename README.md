@@ -10,7 +10,7 @@ Based of 👋 **[Howdy](https://github.com/syntatis/howdy)**, which provides a b
 ## Requirements
 
 - PHP 8.1 or higher
-- Node.js 18 or higher
+- Node.js 20 or higher
 - [Composer](https://getcomposer.org)
 
 ## Usage
