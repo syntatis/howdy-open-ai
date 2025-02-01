@@ -16,9 +16,6 @@
     ],
     "license": "GPL-3.0",
     "autoload": {
-        "files": [
-            "inc/helpers.php"
-        ],
         "psr-4": {
             "PluginName\\": "app/"
         }
