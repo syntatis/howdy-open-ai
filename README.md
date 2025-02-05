@@ -15,7 +15,7 @@ Based of 👋 **[Howdy](https://github.com/syntatis/howdy)**, which provides a b
 To start a new plugin project, simply run:
 
 ```bash
-composer create-project syntatis/howdy-open-ai -s dev
+composer create-project syntatis/howdy-open-ai
 ```
 
 This command will set up the boilerplate files in a directory named `howdy-open-ai`. It will ask you a few questions to customize your project, like the plugin slug, name, and the PHP namespaces.
@@ -25,7 +25,7 @@ Once you've input all these details, it will scope the plugin dependency librari
 > [!TIP]  
 > Want to create the project in a different folder? Just add the directory name at the end of the command, like this:
 > ```bash
-> composer create-project syntatis/howdy-open-ai -s dev awesome-plugin
+> composer create-project syntatis/howdy-open-ai awesome-plugin
 > ```
 > This will create the project in the `awesome-plugin` directory.  
 > For more details, check out the [Composer CLI documentation](https://getcomposer.org/doc/03-cli.md#create-project).
